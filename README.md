@@ -1,4 +1,3 @@
-# Laboratorio1_Algoritmos3_2010168
 # Laboratorio 1: Grados de separación 🌐
 
 **Universidad Simón Bolívar** 
