@@ -1,7 +1,23 @@
-# Laboratorio 2: El juego del Sudoku
+   # Laboratorio 2: El juego de Sudoku ▦
 
-**Nombre:** Santiago Bueno
-**Carnet:** 20-10168
+**Universidad Simón Bolívar** 
+**Departamento de Computación y Tecnología de la Información** 
+**Curso:** CI-2693 - Laboratorio de Algoritmos y Estructuras III (Enero-Marzo 2026)  
+
+---
+
+## 👤 Datos del Estudiante
+
+- **Nombre:** Santiago Bueno
+- **Carnet:** 20-10168
+
+---
+
+## 📝 Descripción del Proyecto
+
+Este proyecto implementa una solución en Kotlin para **resolver un sudoku** dada su representación como string.
+
+El programa lee un string de 81 caracteres que representan un sudoku a resolver.
 
 ## 1. Lógica de Retroceso (Backtracking) Implementada
 
@@ -22,10 +38,11 @@ Para asegurar que el programa termine en un tiempo razonable y no explore combin
 
 ---
 
-## 3. Compilación y Ejecución 
-
-Para compilar y ejecutar el proyecto usando el Makefile provisto:
+## 3. 🚀 Compilación y ejecución
 
 1. Compilar y ejecutar pasándole el tablero como argumento:
    Si desea probar el sudoku propuesto en las instrucciones del laboratorio solo debe ejecutar
    `make`, luego `make run`. Si desea probar otro sudoku, ejecute `make` y luego `java -jar Sudoku.jar <sudoku>` donde `<sudoku>` es la cadena de 81 caracteres que representa un sudoku.
+
+
+
