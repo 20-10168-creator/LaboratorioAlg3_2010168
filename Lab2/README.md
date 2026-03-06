@@ -19,7 +19,7 @@ Este proyecto implementa una solución en Kotlin para **resolver un sudoku** dad
 
 El programa lee un string de 81 caracteres que representan un sudoku a resolver.
 
-## 1. Lógica de Retroceso (Backtracking) Implementada
+##  🔙 1. Lógica de Retroceso (Backtracking) Implementada
 
 Para resolver este Sudoku, el programa utiliza un algoritmo de búsqueda exhaustiva basado en la técnica de Backtracking. La lógica se implementó en la función `resolver` de la siguiente manera:
 
@@ -29,7 +29,7 @@ Para resolver este Sudoku, el programa utiliza un algoritmo de búsqueda exhaust
 * **Retroceso (Backtracking):** Si la llamada recursiva devuelve `false` (lo que indica que ese camino lleva a un callejón sin salida donde el tablero no se puede completar), o si ningún número del 1 al 9 es válido, el algoritmo deshace su movimiento volviendo a colocar un `0` en la celda actual. Luego, retrocede al paso anterior para intentar con el siguiente número disponible.
 * **Caso Base:** El algoritmo termina exitosamente y devuelve `true` cuando logra recorrer toda la matriz sin encontrar celdas vacías.
 
-## 2. Condiciones de Poda Utilizadas
+## ✂️ 2. Condiciones de Poda Utilizadas
 
 Para asegurar que el programa termine en un tiempo razonable y no explore combinaciones inútiles (lo cual tomaría demasiado tiempo dado el tamaño del árbol de decisiones del Sudoku), se implementaron las siguientes estrategias de poda (*pruning*):
 
